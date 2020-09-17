@@ -1,0 +1,377 @@
+
+@import "colors";
+@import "defaults";
+@import "modal";
+
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: $corPrimaria;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    background: $corSecundaria;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 900;
+}
+
+.nav .logo-menu{
+    background-image: url('/imagens/LOGO\ OFICIAL\ ATUALIZADA.png');
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+}
+
+.nav-desktop ul li{
+    display: inline-block;
+    padding-left: 20px;
+    a{
+        text-decoration: none;
+        padding: 20px 0;
+        color: white;
+    }
+    &:hover{
+        transition: 0,5s;
+    }
+
+}
+
+/*.nav-mobile{
+    position: relative;
+    display: none;
+    text-align: center;
+}
+
+.nav-mobile ul{
+    display: none;
+    margin: 0 auto;
+    position: absolute;
+    top: 50px;
+}
+
+.nav-mobile ul li{
+    
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.nav-mobile ul li a{
+    text-decoration: none;
+}
+
+/*.nav-mobile ul li a:hover{
+    font-size: 20px;
+    transition: 0,3s;
+}*/
+
+.section1{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    h2{
+        text-align: center;
+        margin: 40px 0;
+        font-size: 30px;
+    }
+}
+
+
+.section1 .slider{
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    height: 400px;
+    img{
+        position: absolute;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        transition: opacity 800ms;
+    }
+    .selected{
+        opacity: 1;
+    }
+}
+
+
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    h2{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+
+
+.section2 .areas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section2 .ml{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /*background: #777;*/
+}
+
+.section2 .ml .ml-logo{
+    background-image: url('/imagens/mercadolivrelogo.jpg');
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin: 20px;
+}
+
+.section2 .ml .ml-reputation{
+    background-image: url('/imagens/reputacao.PNG');
+    max-width: 90%;
+    width: 500px;
+    height: 500px;
+    background-size: 100% 100%;
+}
+
+
+
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    h2{
+        font-size: 30px;
+    }
+}
+
+
+
+.section3 .benefits{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 70%;
+     margin: 40px 0;
+     span{
+        font-family: 'Rowdies', cursive;
+        font-size: 20px;
+        color: #ffff00;
+    }
+    p{
+        width: 50%;
+        margin-top: 10px;
+        line-height: 30px;
+        color: white;
+    }
+}
+
+.section3 .benefits .benefits-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section3 .benefits .post-time-icon{
+    background-image: url('/imagens/clock.png');
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin: 30px;
+}
+
+.section3 .benefits .safety-icon{
+    background-image: url('/imagens/box.png');
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin: 30px;
+}
+
+.section3 .benefits .support-icon{
+    background-image: url('/imagens/support.png');
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin: 30px;
+}
+ 
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: $corSecundaria;
+    h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+
+
+.section4 .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.section4 .form input{
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.section4 .form textarea{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    resize: none;
+}
+
+.section4 .form button{
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: $corPrimaria; 
+    &:hover{
+        background: red;
+    }
+}
+
+.section4 h1{
+    margin: 20px;
+}
+
+.section4 .contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px;
+    .whatsapp-logo{
+        background-image: url('/imagens/whatsapp.png');
+        width: 80px;
+        height: 80px;
+        background-size: 100% 100%;
+    }
+    .email-logo{
+        background-image: url("/imagens/gmail.png");
+        width: 80px;
+        height: 80px;
+        background-size: 100% 100%;
+        cursor: pointer;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    background: $corPrimaria;
+    span{
+        font-size: 15px;
+        font-style: italic;
+    }
+}
+
+
+@media(max-width: 800px){
+    .modal{
+        justify-content: center;
+        width: 500px;
+        max-width: 80%;
+    }
+}
+
+
+@media(max-width: 600px){
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav .logo-menu{
+        margin-bottom: 10px;
+    }
+
+    .nav-desktop ul li{
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-desktop ul li a{
+        padding: 20px;
+    }
+
+    .section3 .benefits  p{
+        width: 100%;
+    }
+    
+    .section4 .form input{
+        width: 300px;
+    }
+    
+    .section4 .form textarea{
+        width: 300px;
+    }
+
+}
+
+
+@media(max-width: 400px){
+
+    .section3 .benefits{
+        width: 90%;
+   }
+    
+    .section4 .form{
+        input{
+        width: 200px;
+        }
+        textarea{
+            width: 200px;
+        }
+    }
+}   
+  
+
+
+
+
+  
+
