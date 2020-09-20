@@ -1,5 +1,13 @@
 # AllHeisen
 
-Projeto AllHeisen
+## Projeto AllHeisen
 
-Aqui vai a descrição sobre o projeto
+Uma página dedicada ao e-commerce.
+
+## Possui as seguintes funcionalidades:
+Um slider mostrando alguns dos nossos produtos à venda, modal ao abrir a página com um resumo sobre o site. 
+E por final, um formulário de contato. 
+
+![AllHeisen](https://github.com/Muller-Mendonca/AllHeisen/blob/master/AllHeisen.gif)
+
+
