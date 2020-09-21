@@ -10,10 +10,10 @@ E por final, um formulário de contato.
 
 ## Tecnologias
 
-- JavaScript
-- HTML5
-- CSS3
-- SASS
+- ✔️JavaScript
+- ✔️ HTML5
+- ✔️ CSS3
+- ✔️ SASS
 
 ![AllHeisen](https://github.com/Muller-Mendonca/AllHeisen/blob/master/AllHeisen.gif)
 
