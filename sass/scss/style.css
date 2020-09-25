@@ -50,7 +50,9 @@
   width: 500px;
   max-width: 80%;
   background-color: white;
-  border: 5px solid #ccc;
+  border: 5px solid #ffea00;
+  -webkit-box-shadow: 0px 0px 0px 4px white;
+  box-shadow: 0px 0px 0px 4px white;
 }
 
 .modal h2 {
@@ -65,7 +67,7 @@
   border: none;
   cursor: pointer;
   color: white;
-  background: #ffea00;
+  background: #001b96;
 }
 
 .modal-close:hover {
@@ -89,7 +91,7 @@ html, body {
           align-items: center;
   max-width: 1100px;
   margin: 0 auto;
-  background: #ccc;
+  background: #001b96;
 }
 
 .nav {
@@ -410,7 +412,7 @@ html, body {
   border: none;
   cursor: pointer;
   color: white;
-  background: #ccc;
+  background: #001b96;
 }
 
 .section4 .form button:hover {
@@ -456,7 +458,7 @@ footer {
           justify-content: center;
   width: 100%;
   padding: 10px 0;
-  background: #ccc;
+  background: #001b96;
 }
 
 footer span {
@@ -503,20 +505,6 @@ footer span {
   }
   .section4 .form textarea {
     width: 300px;
-  }
-  .section4 .form input:hover {
-    width: 70%;
-    margin: 10px;
-    padding: 10px;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  .section4 .form textarea:hover {
-    width: 70%;
-    margin: 10px;
-    padding: 10px;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
   }
 }
 
