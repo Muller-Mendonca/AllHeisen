@@ -235,7 +235,14 @@ html,body{
     }
 }
 
-
+@mixin inputs {
+    font-size: 15px;
+    font-style: italic;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .section4 .form{
     display: flex;
@@ -246,15 +253,11 @@ html,body{
 }
 
 .section4 .form input{
-    width: 500px;
-    margin: 10px;
-    padding: 10px;
+    @include inputs;
 }
 
 .section4 .form textarea{
-    width: 500px;
-    padding: 10px;
-    margin: 10px;
+    @include inputs;
     resize: none;
 }
 
@@ -263,6 +266,7 @@ html,body{
     padding: 10px;
     margin: 10px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     color: white;
     background: $corPrimaria; 
