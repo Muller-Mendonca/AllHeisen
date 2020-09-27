@@ -126,12 +126,12 @@ html, body {
 
 .nav-desktop ul li a {
   text-decoration: none;
-  padding: 20px 0;
+  padding: 20px 10px;
   color: black;
 }
 
-.nav-desktop ul li:hover {
-  background: red;
+.nav-desktop ul li a:hover {
+  background: rgba(253, 2, 2, 0.39);
   -webkit-transition: 0,5s;
   transition: 0,5s;
 }

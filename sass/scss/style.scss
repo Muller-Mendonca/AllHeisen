@@ -40,11 +40,11 @@ html,body{
     padding-left: 20px;
     a{
         text-decoration: none;
-        padding: 20px 0;
+        padding: 20px 10px;
         color: black;
     }
-    &:hover{
-        background: red;
+    a:hover{
+        background: rgba(253, 2, 2, 0.39);
         transition: 0,5s;
     }
 
