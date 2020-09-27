@@ -131,7 +131,7 @@ html, body {
 }
 
 .nav-desktop ul li a:hover {
-  background: rgba(253, 2, 2, 0.39);
+  color: white;
   -webkit-transition: 0,5s;
   transition: 0,5s;
 }
