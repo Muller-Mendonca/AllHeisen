@@ -24,7 +24,7 @@ html,body{
     width: 100%;
     font-size: 20px;
     background: $corSecundaria;
-    text-shadow: 1px 1px 1px black;
+    /*text-shadow: 1px 1px 1px black;*/
     font-weight: 900;
 }
 
@@ -41,9 +41,10 @@ html,body{
     a{
         text-decoration: none;
         padding: 20px 0;
-        color: white;
+        color: black;
     }
     &:hover{
+        background: red;
         transition: 0,5s;
     }
 
@@ -77,6 +78,12 @@ html,body{
     transition: 0,3s;
 }*/
 
+@mixin titles {
+    text-align: center;   
+    font-size: 30px;
+    color: white;
+}
+
 .section1{
     z-index: 1;
     display: flex;
@@ -84,9 +91,8 @@ html,body{
     align-items: center;
     width: 90%;
     h2{
-        text-align: center;
         margin: 40px 0;
-        font-size: 30px;
+        @include titles;
     }
 }
 
@@ -118,8 +124,7 @@ html,body{
     width: 100%;
     margin-top: 40px;
     h2{
-        text-align: center;
-        font-size: 30px;
+        @include titles;
     }
 }
 
@@ -165,7 +170,7 @@ html,body{
     align-items: center;
     width: 100%;
     h2{
-        font-size: 30px;
+        @include titles;
     }
 }
 
@@ -187,7 +192,7 @@ html,body{
         width: 50%;
         margin-top: 10px;
         line-height: 30px;
-        color: white;
+       
     }
 }
 

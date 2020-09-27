@@ -49,6 +49,7 @@
           align-items: center;
   width: 500px;
   max-width: 80%;
+  border-radius: 5px;
   background-color: white;
   border: 5px solid #ffea00;
   -webkit-box-shadow: 0px 0px 0px 4px white;
@@ -107,7 +108,7 @@ html, body {
   width: 100%;
   font-size: 20px;
   background: #ffea00;
-  text-shadow: 1px 1px 1px black;
+  /*text-shadow: 1px 1px 1px black;*/
   font-weight: 900;
 }
 
@@ -126,10 +127,11 @@ html, body {
 .nav-desktop ul li a {
   text-decoration: none;
   padding: 20px 0;
-  color: white;
+  color: black;
 }
 
 .nav-desktop ul li:hover {
+  background: red;
   -webkit-transition: 0,5s;
   transition: 0,5s;
 }
@@ -177,9 +179,10 @@ html, body {
 }
 
 .section1 h2 {
-  text-align: center;
   margin: 40px 0;
+  text-align: center;
   font-size: 30px;
+  color: white;
 }
 
 .section1 .slider {
@@ -223,6 +226,7 @@ html, body {
 .section2 h2 {
   text-align: center;
   font-size: 30px;
+  color: white;
 }
 
 .section2 .areas {
@@ -285,7 +289,9 @@ html, body {
 }
 
 .section3 h2 {
+  text-align: center;
   font-size: 30px;
+  color: white;
 }
 
 .section3 .benefits {
@@ -316,7 +322,6 @@ html, body {
   width: 50%;
   margin-top: 10px;
   line-height: 30px;
-  color: white;
 }
 
 .section3 .benefits .benefits-details {
