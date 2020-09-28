@@ -280,8 +280,13 @@ html,body{
     }
 }
 
-.section4 h1{
-    margin: 20px;
+
+@mixin social-medias {
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    transform: scale(0.6);
+    transition: 0.5s;
 }
 
 .section4 .contacts{
@@ -291,16 +296,17 @@ html,body{
     margin: 20px;
     .whatsapp-logo{
         background-image: url('/imagens/whatsapp.png');
-        width: 80px;
-        height: 80px;
-        background-size: 100% 100%;
+        @include social-medias;
+    }
+    :hover{
+        transform: scale(1);
     }
     .email-logo{
         background-image: url("/imagens/gmail.png");
-        width: 80px;
-        height: 80px;
-        background-size: 100% 100%;
-        cursor: pointer;
+        @include social-medias;
+    }
+    :hover{
+        transform: scale(1);
     }
 }
 
@@ -313,6 +319,10 @@ footer{
     span{
         font-size: 15px;
         font-style: italic;
+    }
+    :hover{
+        color: white;
+        transition: 0.5s;
     }
 }
 
