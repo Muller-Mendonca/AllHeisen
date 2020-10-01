@@ -1,5 +1,5 @@
-(function () {
-  'use strict';
+
+ export default function initFormulario(){
 
   var name= document.getElementById('name');
   var email = document.getElementById('email');
@@ -29,12 +29,14 @@
     reason.value = '';
   };
 
+};
+
   
 
 
 
 
-})();
+
 
 
 
