@@ -1,5 +1,5 @@
 
- export default function initFormulario(){
+ export default function comecarForm(){
 
   var name= document.getElementById('name');
   var email = document.getElementById('email');
@@ -30,6 +30,8 @@
   };
 
 };
+
+
 
   
 
