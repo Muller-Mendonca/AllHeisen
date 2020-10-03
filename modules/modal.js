@@ -1,8 +1,6 @@
-(function(){
-    'use strict';
 
+export default function initModal(){
 
-//    var modalBtn = document.getElementById('modal-btn');
     var modalBg = document.getElementById('modal-bg');
     var modalClose = document.getElementById('modal-close');
 
@@ -13,5 +11,4 @@
     modalClose.addEventListener('click', function(){
         modalBg.classList.remove('bg-active');
     })
-
-})();
+};
