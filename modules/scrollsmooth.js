@@ -1,5 +1,5 @@
 
-function initScrollSmoother(){
+export default function initScrollSmoother(){
   const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
   
   function scrollToSection(event){
@@ -17,4 +17,3 @@ function initScrollSmoother(){
       link.addEventListener('click', scrollToSection)
   });
 };
-initScrollSmoother();

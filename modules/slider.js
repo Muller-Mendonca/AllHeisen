@@ -1,7 +1,5 @@
 
-(function(){
-    "use strict"
-
+ export default function initSlider(){
     
     let currentImageIndex = 0;
     let images = document.querySelectorAll('#slider img');
@@ -25,6 +23,5 @@
         }, 2000)
     }
     start();
-
-})();
+};
 
