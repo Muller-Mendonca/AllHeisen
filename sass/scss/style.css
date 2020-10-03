@@ -108,7 +108,6 @@ html, body {
   width: 100%;
   font-size: 20px;
   background: #ffea00;
-  /*text-shadow: 1px 1px 1px black;*/
   font-weight: 900;
 }
 
@@ -136,33 +135,6 @@ html, body {
   transition: 0,5s;
 }
 
-/*.nav-mobile{
-    position: relative;
-    display: none;
-    text-align: center;
-}
-
-.nav-mobile ul{
-    display: none;
-    margin: 0 auto;
-    position: absolute;
-    top: 50px;
-}
-
-.nav-mobile ul li{
-    
-    list-style-type: none;
-    padding: 5px 0;
-}
-
-.nav-mobile ul li a{
-    text-decoration: none;
-}
-
-/*.nav-mobile ul li a:hover{
-    font-size: 20px;
-    transition: 0,3s;
-}*/
 .section1 {
   z-index: 1;
   display: -webkit-box;

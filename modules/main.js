@@ -1,5 +1,3 @@
-const { default: initFormulario } = require("./formulario");
+import comecar from './formulario.js';
 
-import comecarForm from './formulario.js';
-
-comecarForm();
+comecar();

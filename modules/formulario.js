@@ -1,5 +1,5 @@
 
- export default function comecarForm(){
+ export default function comecar(){
 
   var name= document.getElementById('name');
   var email = document.getElementById('email');
@@ -15,7 +15,7 @@
 
   function validarDados(){
     if(name.value.trim() === '' || email.value.trim() === '' || reason.value.trim() === ''){
-      alert('Preenchar seus dados corretamente');
+      alert('Preencha seus dados corretamente');
     }else{
       alert('Enviamos seus dados!');
       limparDados();
