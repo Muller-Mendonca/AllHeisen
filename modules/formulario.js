@@ -1,17 +1,13 @@
 
  export default function initForm(){
 
-  var name= document.getElementById('name');
+  var name = document.getElementById('name');
   var email = document.getElementById('email');
   var reason = document.getElementById('reason');
   var message = document.getElementById('message');
   var send = document.getElementById('send');
 
-  send.addEventListener('click', () => {
-
-    return validarDados();
-    
-  });
+  send.addEventListener('click', validarDados);
 
   function validarDados(){
     if(name.value.trim() === '' || email.value.trim() === '' || reason.value.trim() === ''){
