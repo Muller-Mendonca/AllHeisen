@@ -216,6 +216,7 @@ html,body{
     background: $corSecundaria;
     h3{
         @include sub-titles;
+        color: $corPrimaria;
         text-align: center;
         padding-top: 20px;
     }
