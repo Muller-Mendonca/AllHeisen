@@ -508,8 +508,25 @@ footer :hover {
   header .logo-menu {
     margin-bottom: 10px;
   }
-  .nav .hamburguer {
+  header .hamburguer {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0;
+    position: relative;
+    cursor: pointer;
     display: block;
+  }
+  .hamburguer:after {
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+    height: 5%;
+    border-radius: 5px;
+    background-color: #2600ff;
   }
   nav {
     position: fixed;
