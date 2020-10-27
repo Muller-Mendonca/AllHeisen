@@ -376,7 +376,8 @@ footer{
         height: 100vh;
         background: #222;
         padding: 100px 20px;
-        z-index: 999;
+        z-index: 998;
+        transition: 0.5s ease;
     }
 
     nav ul li{
