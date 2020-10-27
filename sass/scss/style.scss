@@ -17,7 +17,7 @@ html,body{
     background: $corPrimaria;
 }
 
-.nav{
+header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,14 +26,14 @@ html,body{
     background: $corSecundaria;
 }
 
-.nav .logo-menu{
+header .logo-menu{
     background-image: url('/imagens/LOGO\ OFICIAL\ ATUALIZADA.png');
     width: 100px;
     height: 100px;
     background-size: 100% 100%;
 }
 
-.nav .hamburguer{
+header .hamburguer{
     color: green;
     display: none;
 }
@@ -327,16 +327,16 @@ footer{
 
 @media(max-width: 600px){
 
-    .nav{
+    header{
         display: flex;
         flex-direction: column;
     }
 
-    .nav .logo-menu{
+    header .logo-menu{
         margin-bottom: 10px;
     }
 
-    .nav .hamburguer{
+    header .hamburguer{
         display: block;
     }
 

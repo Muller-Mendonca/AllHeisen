@@ -96,7 +96,7 @@ html, body {
   background: #001b96;
 }
 
-.nav {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,14 +110,14 @@ html, body {
   background: #FFF50C;
 }
 
-.nav .logo-menu {
+header .logo-menu {
   background-image: url("/imagens/LOGO OFICIAL ATUALIZADA.png");
   width: 100px;
   height: 100px;
   background-size: 100% 100%;
 }
 
-.nav .hamburguer {
+header .hamburguer {
   color: green;
   display: none;
 }
@@ -496,7 +496,7 @@ footer :hover {
 }
 
 @media (max-width: 600px) {
-  .nav {
+  header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -505,7 +505,7 @@ footer :hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .nav .logo-menu {
+  header .logo-menu {
     margin-bottom: 10px;
   }
   .nav .hamburguer {
