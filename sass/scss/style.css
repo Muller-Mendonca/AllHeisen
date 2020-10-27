@@ -118,8 +118,38 @@ header .logo-menu {
 }
 
 header .hamburguer {
-  color: green;
+  width: 30px;
+  height: 30px;
+  right: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 0;
+  position: absolute;
+  cursor: pointer;
+  display: block;
   display: none;
+}
+
+.hamburguer:after {
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  width: 70%;
+  height: 5%;
+  border-radius: 5px;
+  background-color: #2600ff;
+}
+
+.hamburguer:before {
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  width: 70%;
+  height: 5%;
+  border-radius: 5px;
+  background-color: #2600ff;
 }
 
 nav ul li {
@@ -505,33 +535,14 @@ footer :hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  header .logo-menu {
-    margin-bottom: 10px;
-  }
   header .hamburguer {
-    width: 30px;
-    height: 30px;
-    background-color: transparent;
-    border-radius: 5px;
-    border: 0;
-    position: relative;
-    cursor: pointer;
     display: block;
-  }
-  .hamburguer:after {
-    content: "";
-    position: absolute;
-    top: 35%;
-    left: 15%;
-    width: 70%;
-    height: 5%;
-    border-radius: 5px;
-    background-color: #2600ff;
+    z-index: 999;
   }
   nav {
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     width: 100%;
     max-width: 250px;
     height: 100vh;
@@ -546,6 +557,9 @@ footer :hover {
   }
   nav ul li a {
     padding: 20px;
+  }
+  nav.active {
+    right: 0;
   }
   .section3 .benefits p {
     width: 100%;
