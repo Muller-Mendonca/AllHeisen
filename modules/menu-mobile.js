@@ -1,11 +1,12 @@
 
 export default function initMenuMobile(){
-    console.log('funcionou');
+
     const btnHb = document.querySelector('[data-js="btn-hamburguer"]');
-    console.log(btnHb)
+    const nav = document.querySelector('[data-js="nav"]');
+
     btnHb.addEventListener('click', openMenu);
 
     function openMenu(){
-        console.log('Abriu')
+        nav.classList.toggle('active');
     };
 }
