@@ -1,8 +1,8 @@
 
-export default function initMenuMobile(){
+export default function initMenuMobile(btn, content){
 
-    const btnHb = document.querySelector('[data-js="btn-hamburguer"]');
-    const nav = document.querySelector('[data-js="nav"]');
+    const btnHb = document.querySelector(btn);
+    const nav = document.querySelector(content);
 
     btnHb.addEventListener('click', openMenu);
 

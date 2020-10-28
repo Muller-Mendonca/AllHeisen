@@ -8,4 +8,4 @@ initForm();
 initModal();
 initScrollSmoother();
 initSlider();
-initMenuMobile();
+initMenuMobile('[data-js="btn-hamburguer"]','[data-js="nav"]')
