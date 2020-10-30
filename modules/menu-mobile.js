@@ -12,5 +12,5 @@ export default function initMenuMobile(btn, content){
 
     if(window.innerWidth < 600){
         btnHb.addEventListener(events[1], openMenu);
-    } 
-}
+    };
+};
