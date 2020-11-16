@@ -26,6 +26,9 @@ header{
     width: 100%;
     font-size: 20px;
     background: $corSecundaria;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
 }
 
 header .logo-menu{
@@ -390,6 +393,12 @@ footer{
 
     nav.active{
         right: 0;
+    }
+
+    .section1{
+        h2{
+            margin: 100px 0 20px 0;
+        }
     }
 
     .section3 .benefits  p{
