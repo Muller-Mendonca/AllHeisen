@@ -97,7 +97,6 @@ html, body {
 }
 
 header {
-  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -529,6 +528,7 @@ footer :hover {
 
 @media (max-width: 600px) {
   header {
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

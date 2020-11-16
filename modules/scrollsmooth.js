@@ -6,6 +6,7 @@ export default function initScrollSmoother(){
       event.preventDefault();
       const href = event.currentTarget.getAttribute('href');
       const section = document.querySelector(href);
+
       
       section.scrollIntoView({
           behavior: 'smooth',
