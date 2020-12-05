@@ -7,7 +7,6 @@ export default function initModal(){
     function loading(){
         setTimeout(function(){
             modalBg.classList.add('bg-active')
-            console.log('funcionando')
         },1000)
     }
 
