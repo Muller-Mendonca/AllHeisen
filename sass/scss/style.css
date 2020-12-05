@@ -556,11 +556,6 @@ footer :hover {
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
   }
-  nav ul li {
-    display: block;
-    text-align: center;
-    padding: 25px 0;
-  }
   nav.active {
     right: 0;
   }

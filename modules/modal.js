@@ -1,13 +1,18 @@
 
 export default function initModal(){
 
-    var modalBg = document.getElementById('modal-bg');
-    var modalClose = document.getElementById('modal-close');
+    const modalBg = document.getElementById('modal-bg');
+    const modalClose = document.getElementById('modal-close');
 
-    addEventListener('load', function(){
-        modalBg.classList.add('bg-active');
-    })
+    function loading(){
+        setTimeout(function(){
+            modalBg.classList.add('bg-active')
+            console.log('funcionando')
+        },1000)
+    }
 
+    addEventListener('load', loading())
+        
     modalClose.addEventListener('click', function(){
         modalBg.classList.remove('bg-active');
     })
